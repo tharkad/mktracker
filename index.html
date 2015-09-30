@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="mobile-web-app-capable" content="yes">
+    <!-- Your app title -->
+    <title>Mage Knight Tracker</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+  <body>
+    <!-- Status bar overlay for full screen mode (PhoneGap) -->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <div class="panel panel-left panel-reveal">
+    	<div class="content-block">
+            <div class="page-content">
+				<div class="list-block">
+				  <ul>
+					<li>
+					  <a href="" class="reset-tracker close-panel item-link item-content">
+						<div class="item-inner">
+						  <div class="item-title">Reset Tracker</div>
+						  <div class="item-after"></div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="about.html" class="close-panel item-link item-content">
+						<div class="item-inner">
+						  <div class="item-title">About MK Tracker</div>
+						  <div class="item-after"></div>
+						</div>
+					  </a>
+					</li>
+				  </ul>
+				</div>
+           </div>
+    	</div>
+    </div>
+    <!-- Views -->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar">
+          <div class="navbar-inner">
+            <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+            <div class="center sliding">Mage Knight Tracker</div>
+            <div class="right">
+              <!-- 
+                Right link contains only icon - additional "icon-only" class
+                Additional "open-panel" class tells app to open panel when we click on this link
+              -->
+              <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+		<div class="pages navbar-through">
+			<div data-page="mage-knight-tracker" class="page">
+				<div class="page-content">
+					<div class="content-block-title">Fame</div>
+					<div class="swiper-container fame-swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide mk-swiper-slide">
+								<div class="mk-follower">0</div>
+							</div>
+							<div class="swiper-slide mk-swiper-slide">1</div>
+							<div class="swiper-slide mk-swiper-slide">2</div>
+							<div class="swiper-slide mk-swiper-slide">
+								<div class="mk-card-skill">3</div>
+							</div>
+							<div class="swiper-slide mk-swiper-slide">4</div>
+							<div class="swiper-slide mk-swiper-slide">5</div>
+							<div class="swiper-slide mk-swiper-slide">6</div>
+							<div class="swiper-slide mk-swiper-slide">7</div>
+							<div class="swiper-slide mk-swiper-slide">
+								<div class="mk-follower">8</div>
+							</div>
+							<div class="swiper-slide mk-swiper-slide">9</div>
+							<div class="swiper-slide mk-swiper-slide">10</div>
+							<div class="swiper-slide mk-swiper-slide">11</div>
+							<div class="swiper-slide mk-swiper-slide">12</div>
+							<div class="swiper-slide mk-swiper-slide">13</div>
+							<div class="swiper-slide mk-swiper-slide">14</div>
+							<div class="swiper-slide mk-swiper-slide">
+								<div class="mk-card-skill">15</div>
+							</div>
+							<div class="swiper-slide mk-swiper-slide">16</div>
+							<div class="swiper-slide mk-swiper-slide">17</div>
+							<div class="swiper-slide mk-swiper-slide">18</div>
+							<div class="swiper-slide mk-swiper-slide">19</div>
+							<div class="swiper-slide mk-swiper-slide">20</div>
+							<div class="swiper-slide mk-swiper-slide">21</div>
+							<div class="swiper-slide mk-swiper-slide">22</div>
+							<div class="swiper-slide mk-swiper-slide">23</div>
+							<div class="swiper-slide mk-swiper-slide">
+								<div class="mk-follower">24</div>
+							</div>
+							<div class="swiper-slide mk-swiper-slide">25</div>
+							<div class="swiper-slide mk-swiper-slide">26</div>
+							<div class="swiper-slide mk-swiper-slide">27</div>
+							<div class="swiper-slide mk-swiper-slide">28</div>
+							<div class="swiper-slide mk-swiper-slide">29</div>
+							<div class="swiper-slide mk-swiper-slide">30</div>
+							<div class="swiper-slide mk-swiper-slide">31</div>
+							<div class="swiper-slide mk-swiper-slide">32</div>
+							<div class="swiper-slide mk-swiper-slide">33</div>
+							<div class="swiper-slide mk-swiper-slide">34</div>
+							<div class="swiper-slide mk-swiper-slide">
+								<div class="mk-card-skill">35</div>
+							</div>
+							<div class="swiper-slide mk-swiper-slide">36</div>
+							<div class="swiper-slide mk-swiper-slide">37</div>
+							<div class="swiper-slide mk-swiper-slide">38</div>
+							<div class="swiper-slide mk-swiper-slide">39</div>
+							<div class="swiper-slide mk-swiper-slide">40</div>
+							<div class="swiper-slide mk-swiper-slide">41</div>
+							<div class="swiper-slide mk-swiper-slide">42</div>
+							<div class="swiper-slide mk-swiper-slide">43</div>
+							<div class="swiper-slide mk-swiper-slide">44</div>
+							<div class="swiper-slide mk-swiper-slide">45</div>
+							<div class="swiper-slide mk-swiper-slide">46</div>
+							<div class="swiper-slide mk-swiper-slide">47</div>
+							<div class="swiper-slide mk-swiper-slide">
+								<div class="mk-follower">48</div>
+							</div>
+							<div class="swiper-slide mk-swiper-slide">49</div>
+							<div class="swiper-slide mk-swiper-slide">50</div>
+							<div class="swiper-slide mk-swiper-slide">51</div>
+							<div class="swiper-slide mk-swiper-slide">52</div>
+							<div class="swiper-slide mk-swiper-slide">53</div>
+							<div class="swiper-slide mk-swiper-slide">54</div>
+							<div class="swiper-slide mk-swiper-slide">55</div>
+							<div class="swiper-slide mk-swiper-slide">56</div>
+							<div class="swiper-slide mk-swiper-slide">57</div>
+							<div class="swiper-slide mk-swiper-slide">58</div>
+							<div class="swiper-slide mk-swiper-slide">59</div>
+							<div class="swiper-slide mk-swiper-slide">60</div>
+							<div class="swiper-slide mk-swiper-slide">61</div>
+							<div class="swiper-slide mk-swiper-slide">62</div>
+							<div class="swiper-slide mk-swiper-slide">
+								<div class="mk-card-skill">63</div>
+							</div>
+							<div class="swiper-slide mk-swiper-slide">64</div>
+							<div class="swiper-slide mk-swiper-slide">65</div>
+							<div class="swiper-slide mk-swiper-slide">66</div>
+							<div class="swiper-slide mk-swiper-slide">67</div>
+							<div class="swiper-slide mk-swiper-slide">68</div>
+							<div class="swiper-slide mk-swiper-slide">69</div>
+							<div class="swiper-slide mk-swiper-slide">70</div>
+							<div class="swiper-slide mk-swiper-slide">71</div>
+							<div class="swiper-slide mk-swiper-slide">72</div>
+							<div class="swiper-slide mk-swiper-slide">73</div>
+							<div class="swiper-slide mk-swiper-slide">74</div>
+							<div class="swiper-slide mk-swiper-slide">75</div>
+							<div class="swiper-slide mk-swiper-slide">76</div>
+							<div class="swiper-slide mk-swiper-slide">77</div>
+							<div class="swiper-slide mk-swiper-slide">78</div>
+							<div class="swiper-slide mk-swiper-slide">79</div>
+							<div class="swiper-slide mk-swiper-slide">
+								<div class="mk-follower">80</div>
+							</div>
+							<div class="swiper-slide mk-swiper-slide">81</div>
+							<div class="swiper-slide mk-swiper-slide">82</div>
+							<div class="swiper-slide mk-swiper-slide">83</div>
+							<div class="swiper-slide mk-swiper-slide">84</div>
+							<div class="swiper-slide mk-swiper-slide">85</div>
+							<div class="swiper-slide mk-swiper-slide">86</div>
+							<div class="swiper-slide mk-swiper-slide">87</div>
+							<div class="swiper-slide mk-swiper-slide">88</div>
+							<div class="swiper-slide mk-swiper-slide">89</div>
+							<div class="swiper-slide mk-swiper-slide">90</div>
+							<div class="swiper-slide mk-swiper-slide">91</div>
+							<div class="swiper-slide mk-swiper-slide">92</div>
+							<div class="swiper-slide mk-swiper-slide">93</div>
+							<div class="swiper-slide mk-swiper-slide">94</div>
+							<div class="swiper-slide mk-swiper-slide">95</div>
+							<div class="swiper-slide mk-swiper-slide">96</div>
+							<div class="swiper-slide mk-swiper-slide">97</div>
+							<div class="swiper-slide mk-swiper-slide">98</div>
+							<div class="swiper-slide mk-swiper-slide">
+								<div class="mk-card-skill">99</div>
+							</div>
+							<div class="swiper-slide mk-swiper-slide">100</div>
+							<div class="swiper-slide mk-swiper-slide">101</div>
+							<div class="swiper-slide mk-swiper-slide">102</div>
+							<div class="swiper-slide mk-swiper-slide">103</div>
+							<div class="swiper-slide mk-swiper-slide">104</div>
+							<div class="swiper-slide mk-swiper-slide">105</div>
+							<div class="swiper-slide mk-swiper-slide">106</div>
+							<div class="swiper-slide mk-swiper-slide">107</div>
+							<div class="swiper-slide mk-swiper-slide">108</div>
+							<div class="swiper-slide mk-swiper-slide">109</div>
+							<div class="swiper-slide mk-swiper-slide">110</div>
+							<div class="swiper-slide mk-swiper-slide">111</div>
+							<div class="swiper-slide mk-swiper-slide">112</div>
+							<div class="swiper-slide mk-swiper-slide">113</div>
+							<div class="swiper-slide mk-swiper-slide">114</div>
+							<div class="swiper-slide mk-swiper-slide">115</div>
+							<div class="swiper-slide mk-swiper-slide">116</div>
+							<div class="swiper-slide mk-swiper-slide">117</div>
+							<div class="swiper-slide mk-swiper-slide">118</div>
+							<div class="swiper-slide mk-swiper-slide">119</div>
+							<div class="swiper-slide mk-swiper-slide">120</div>
+							<div class="swiper-slide mk-swiper-slide">121</div>
+							<div class="swiper-slide mk-swiper-slide">122</div>
+							<div class="swiper-slide mk-swiper-slide">123</div>
+							<div class="swiper-slide mk-swiper-slide">124</div>
+							<div class="swiper-slide mk-swiper-slide">125</div>
+							<div class="swiper-slide mk-swiper-slide">126</div>
+							<div class="swiper-slide mk-swiper-slide">127</div>
+							<div class="swiper-slide mk-swiper-slide">128</div>
+							<div class="swiper-slide mk-swiper-slide">129</div>
+							<div class="swiper-slide mk-swiper-slide">130</div>
+							<div class="swiper-slide mk-swiper-slide">131</div>
+							<div class="swiper-slide mk-swiper-slide">132</div>
+							<div class="swiper-slide mk-swiper-slide">133</div>
+							<div class="swiper-slide mk-swiper-slide">134</div>
+							<div class="swiper-slide mk-swiper-slide">135</div>
+							<div class="swiper-slide mk-swiper-slide">136</div>
+							<div class="swiper-slide mk-swiper-slide">137</div>
+							<div class="swiper-slide mk-swiper-slide">138</div>
+							<div class="swiper-slide mk-swiper-slide">139</div>
+							<div class="swiper-slide mk-swiper-slide">140</div>
+							<div class="swiper-slide mk-swiper-slide">141</div>
+							<div class="swiper-slide mk-swiper-slide">142</div>
+							<div class="swiper-slide mk-swiper-slide">143</div>
+							<div class="swiper-slide mk-swiper-slide">144</div>
+							<div class="swiper-slide mk-swiper-slide">145</div>
+							<div class="swiper-slide mk-swiper-slide">146</div>
+							<div class="swiper-slide mk-swiper-slide">147</div>
+							<div class="swiper-slide mk-swiper-slide">148</div>
+							<div class="swiper-slide mk-swiper-slide">149</div>
+							<div class="swiper-slide mk-swiper-slide">150</div>
+							<div class="swiper-slide mk-swiper-slide">151</div>
+							<div class="swiper-slide mk-swiper-slide">152</div>
+							<div class="swiper-slide mk-swiper-slide">153</div>
+							<div class="swiper-slide mk-swiper-slide">154</div>
+							<div class="swiper-slide mk-swiper-slide">155</div>
+							<div class="swiper-slide mk-swiper-slide">156</div>
+							<div class="swiper-slide mk-swiper-slide">157</div>
+							<div class="swiper-slide mk-swiper-slide">158</div>
+							<div class="swiper-slide mk-swiper-slide">159</div>
+							<div class="swiper-slide mk-swiper-slide">160</div>
+							<div class="swiper-slide mk-swiper-slide">161</div>
+							<div class="swiper-slide mk-swiper-slide">162</div>
+							<div class="swiper-slide mk-swiper-slide">163</div>
+							<div class="swiper-slide mk-swiper-slide">164</div>
+							<div class="swiper-slide mk-swiper-slide">165</div>
+							<div class="swiper-slide mk-swiper-slide">166</div>
+							<div class="swiper-slide mk-swiper-slide">167</div>
+							<div class="swiper-slide mk-swiper-slide">168</div>
+							<div class="swiper-slide mk-swiper-slide">169</div>
+							<div class="swiper-slide mk-swiper-slide">170</div>
+							<div class="swiper-slide mk-swiper-slide">171</div>
+							<div class="swiper-slide mk-swiper-slide">172</div>
+							<div class="swiper-slide mk-swiper-slide">173</div>
+							<div class="swiper-slide mk-swiper-slide">174</div>
+							<div class="swiper-slide mk-swiper-slide">175</div>
+							<div class="swiper-slide mk-swiper-slide">176</div>
+							<div class="swiper-slide mk-swiper-slide">177</div>
+							<div class="swiper-slide mk-swiper-slide">178</div>
+							<div class="swiper-slide mk-swiper-slide">179</div>
+							<div class="swiper-slide mk-swiper-slide">180</div>
+							<div class="swiper-slide mk-swiper-slide">181</div>
+							<div class="swiper-slide mk-swiper-slide">182</div>
+							<div class="swiper-slide mk-swiper-slide">183</div>
+							<div class="swiper-slide mk-swiper-slide">184</div>
+							<div class="swiper-slide mk-swiper-slide">185</div>
+							<div class="swiper-slide mk-swiper-slide">186</div>
+							<div class="swiper-slide mk-swiper-slide">187</div>
+							<div class="swiper-slide mk-swiper-slide">188</div>
+							<div class="swiper-slide mk-swiper-slide">189</div>
+							<div class="swiper-slide mk-swiper-slide">190</div>
+							<div class="swiper-slide mk-swiper-slide">191</div>
+							<div class="swiper-slide mk-swiper-slide">192</div>
+							<div class="swiper-slide mk-swiper-slide">193</div>
+							<div class="swiper-slide mk-swiper-slide">194</div>
+							<div class="swiper-slide mk-swiper-slide">195</div>
+							<div class="swiper-slide mk-swiper-slide">196</div>
+							<div class="swiper-slide mk-swiper-slide">197</div>
+							<div class="swiper-slide mk-swiper-slide">198</div>
+							<div class="swiper-slide mk-swiper-slide">199</div>
+							<div class="swiper-slide mk-swiper-slide">200</div>
+							<div class="swiper-slide mk-swiper-slide">201</div>
+							<div class="swiper-slide mk-swiper-slide">202</div>
+							<div class="swiper-slide mk-swiper-slide">203</div>
+							<div class="swiper-slide mk-swiper-slide">204</div>
+							<div class="swiper-slide mk-swiper-slide">205</div>
+							<div class="swiper-slide mk-swiper-slide">206</div>
+							<div class="swiper-slide mk-swiper-slide">207</div>
+							<div class="swiper-slide mk-swiper-slide">208</div>
+							<div class="swiper-slide mk-swiper-slide">209</div>
+							<div class="swiper-slide mk-swiper-slide">210</div>
+							<div class="swiper-slide mk-swiper-slide">211</div>
+							<div class="swiper-slide mk-swiper-slide">212</div>
+							<div class="swiper-slide mk-swiper-slide">213</div>
+							<div class="swiper-slide mk-swiper-slide">214</div>
+							<div class="swiper-slide mk-swiper-slide">215</div>
+							<div class="swiper-slide mk-swiper-slide">216</div>
+							<div class="swiper-slide mk-swiper-slide">217</div>
+							<div class="swiper-slide mk-swiper-slide">218</div>
+							<div class="swiper-slide mk-swiper-slide">219</div>
+							<div class="swiper-slide mk-swiper-slide">220</div>
+							<div class="swiper-slide mk-swiper-slide">221</div>
+							<div class="swiper-slide mk-swiper-slide">222</div>
+							<div class="swiper-slide mk-swiper-slide">223</div>
+							<div class="swiper-slide mk-swiper-slide">224</div>
+							<div class="swiper-slide mk-swiper-slide">225</div>
+							<div class="swiper-slide mk-swiper-slide">226</div>
+							<div class="swiper-slide mk-swiper-slide">227</div>
+							<div class="swiper-slide mk-swiper-slide">228</div>
+							<div class="swiper-slide mk-swiper-slide">229</div>
+							<div class="swiper-slide mk-swiper-slide">230</div>
+							<div class="swiper-slide mk-swiper-slide">231</div>
+							<div class="swiper-slide mk-swiper-slide">232</div>
+							<div class="swiper-slide mk-swiper-slide">233</div>
+							<div class="swiper-slide mk-swiper-slide">234</div>
+							<div class="swiper-slide mk-swiper-slide">235</div>
+							<div class="swiper-slide mk-swiper-slide">236</div>
+							<div class="swiper-slide mk-swiper-slide">237</div>
+							<div class="swiper-slide mk-swiper-slide">238</div>
+							<div class="swiper-slide mk-swiper-slide">239</div>
+							<div class="swiper-slide mk-swiper-slide">240</div>
+							<div class="swiper-slide mk-swiper-slide">241</div>
+							<div class="swiper-slide mk-swiper-slide">242</div>
+							<div class="swiper-slide mk-swiper-slide">243</div>
+							<div class="swiper-slide mk-swiper-slide">244</div>
+							<div class="swiper-slide mk-swiper-slide">245</div>
+							<div class="swiper-slide mk-swiper-slide">246</div>
+							<div class="swiper-slide mk-swiper-slide">247</div>
+							<div class="swiper-slide mk-swiper-slide">248</div>
+							<div class="swiper-slide mk-swiper-slide">249</div>
+							<div class="swiper-slide mk-swiper-slide">250</div>
+							<div class="swiper-slide mk-swiper-slide">251</div>
+							<div class="swiper-slide mk-swiper-slide">252</div>
+							<div class="swiper-slide mk-swiper-slide">253</div>
+							<div class="swiper-slide mk-swiper-slide">254</div>
+							<div class="swiper-slide mk-swiper-slide">255</div>
+							<div class="swiper-slide mk-swiper-slide">256</div>
+							<div class="swiper-slide mk-swiper-slide">257</div>
+							<div class="swiper-slide mk-swiper-slide">258</div>
+							<div class="swiper-slide mk-swiper-slide">259</div>
+							<div class="swiper-slide mk-swiper-slide">260</div>
+							<div class="swiper-slide mk-swiper-slide">261</div>
+							<div class="swiper-slide mk-swiper-slide">262</div>
+							<div class="swiper-slide mk-swiper-slide">263</div>
+							<div class="swiper-slide mk-swiper-slide">264</div>
+							<div class="swiper-slide mk-swiper-slide">265</div>
+							<div class="swiper-slide mk-swiper-slide">266</div>
+							<div class="swiper-slide mk-swiper-slide">267</div>
+							<div class="swiper-slide mk-swiper-slide">268</div>
+							<div class="swiper-slide mk-swiper-slide">269</div>
+							<div class="swiper-slide mk-swiper-slide">270</div>
+							<div class="swiper-slide mk-swiper-slide">271</div>
+							<div class="swiper-slide mk-swiper-slide">272</div>
+							<div class="swiper-slide mk-swiper-slide">273</div>
+							<div class="swiper-slide mk-swiper-slide">274</div>
+							<div class="swiper-slide mk-swiper-slide">275</div>
+							<div class="swiper-slide mk-swiper-slide">276</div>
+							<div class="swiper-slide mk-swiper-slide">277</div>
+							<div class="swiper-slide mk-swiper-slide">278</div>
+							<div class="swiper-slide mk-swiper-slide">279</div>
+							<div class="swiper-slide mk-swiper-slide">280</div>
+							<div class="swiper-slide mk-swiper-slide">281</div>
+							<div class="swiper-slide mk-swiper-slide">282</div>
+							<div class="swiper-slide mk-swiper-slide">283</div>
+							<div class="swiper-slide mk-swiper-slide">284</div>
+							<div class="swiper-slide mk-swiper-slide">285</div>
+							<div class="swiper-slide mk-swiper-slide">286</div>
+							<div class="swiper-slide mk-swiper-slide">287</div>
+							<div class="swiper-slide mk-swiper-slide">288</div>
+							<div class="swiper-slide mk-swiper-slide">289</div>
+							<div class="swiper-slide mk-swiper-slide">290</div>
+							<div class="swiper-slide mk-swiper-slide">291</div>
+							<div class="swiper-slide mk-swiper-slide">292</div>
+							<div class="swiper-slide mk-swiper-slide">293</div>
+							<div class="swiper-slide mk-swiper-slide">294</div>
+							<div class="swiper-slide mk-swiper-slide">295</div>
+							<div class="swiper-slide mk-swiper-slide">296</div>
+							<div class="swiper-slide mk-swiper-slide">297</div>
+							<div class="swiper-slide mk-swiper-slide">298</div>
+							<div class="swiper-slide mk-swiper-slide">299</div>
+							<div class="swiper-slide mk-swiper-slide">300</div>
+							<div class="swiper-slide mk-swiper-slide">301</div>
+							<div class="swiper-slide mk-swiper-slide">302</div>
+							<div class="swiper-slide mk-swiper-slide">303</div>
+							<div class="swiper-slide mk-swiper-slide">304</div>
+							<div class="swiper-slide mk-swiper-slide">305</div>
+							<div class="swiper-slide mk-swiper-slide">306</div>
+							<div class="swiper-slide mk-swiper-slide">307</div>
+							<div class="swiper-slide mk-swiper-slide">308</div>
+							<div class="swiper-slide mk-swiper-slide">309</div>
+							<div class="swiper-slide mk-swiper-slide">310</div>
+							<div class="swiper-slide mk-swiper-slide">311</div>
+							<div class="swiper-slide mk-swiper-slide">312</div>
+							<div class="swiper-slide mk-swiper-slide">313</div>
+							<div class="swiper-slide mk-swiper-slide">314</div>
+							<div class="swiper-slide mk-swiper-slide">315</div>
+							<div class="swiper-slide mk-swiper-slide">316</div>
+							<div class="swiper-slide mk-swiper-slide">317</div>
+							<div class="swiper-slide mk-swiper-slide">318</div>
+							<div class="swiper-slide mk-swiper-slide">319</div>
+							<div class="swiper-slide mk-swiper-slide">320</div>
+							<div class="swiper-slide mk-swiper-slide">321</div>
+							<div class="swiper-slide mk-swiper-slide">322</div>
+							<div class="swiper-slide mk-swiper-slide">323</div>
+							<div class="swiper-slide mk-swiper-slide">324</div>
+							<div class="swiper-slide mk-swiper-slide">325</div>
+							<div class="swiper-slide mk-swiper-slide">326</div>
+							<div class="swiper-slide mk-swiper-slide">327</div>
+							<div class="swiper-slide mk-swiper-slide">328</div>
+							<div class="swiper-slide mk-swiper-slide">329</div>
+							<div class="swiper-slide mk-swiper-slide">330</div>
+							<div class="swiper-slide mk-swiper-slide">331</div>
+							<div class="swiper-slide mk-swiper-slide">332</div>
+							<div class="swiper-slide mk-swiper-slide">333</div>
+							<div class="swiper-slide mk-swiper-slide">334</div>
+							<div class="swiper-slide mk-swiper-slide">335</div>
+							<div class="swiper-slide mk-swiper-slide">336</div>
+							<div class="swiper-slide mk-swiper-slide">337</div>
+							<div class="swiper-slide mk-swiper-slide">338</div>
+							<div class="swiper-slide mk-swiper-slide">339</div>
+							<div class="swiper-slide mk-swiper-slide">340</div>
+							<div class="swiper-slide mk-swiper-slide">341</div>
+							<div class="swiper-slide mk-swiper-slide">342</div>
+							<div class="swiper-slide mk-swiper-slide">343</div>
+							<div class="swiper-slide mk-swiper-slide">344</div>
+							<div class="swiper-slide mk-swiper-slide">345</div>
+							<div class="swiper-slide mk-swiper-slide">346</div>
+							<div class="swiper-slide mk-swiper-slide">347</div>
+							<div class="swiper-slide mk-swiper-slide">348</div>
+							<div class="swiper-slide mk-swiper-slide">349</div>
+							<div class="swiper-slide mk-swiper-slide">350</div>
+							<div class="swiper-slide mk-swiper-slide">351</div>
+							<div class="swiper-slide mk-swiper-slide">352</div>
+							<div class="swiper-slide mk-swiper-slide">353</div>
+							<div class="swiper-slide mk-swiper-slide">354</div>
+							<div class="swiper-slide mk-swiper-slide">355</div>
+							<div class="swiper-slide mk-swiper-slide">356</div>
+							<div class="swiper-slide mk-swiper-slide">357</div>
+							<div class="swiper-slide mk-swiper-slide">358</div>
+							<div class="swiper-slide mk-swiper-slide">359</div>
+							<div class="swiper-slide mk-swiper-slide">360</div>
+							<div class="swiper-slide mk-swiper-slide">361</div>
+							<div class="swiper-slide mk-swiper-slide">362</div>
+							<div class="swiper-slide mk-swiper-slide">363</div>
+							<div class="swiper-slide mk-swiper-slide">364</div>
+							<div class="swiper-slide mk-swiper-slide">365</div>
+							<div class="swiper-slide mk-swiper-slide">366</div>
+							<div class="swiper-slide mk-swiper-slide">367</div>
+							<div class="swiper-slide mk-swiper-slide">368</div>
+							<div class="swiper-slide mk-swiper-slide">369</div>
+							<div class="swiper-slide mk-swiper-slide">370</div>
+							<div class="swiper-slide mk-swiper-slide">371</div>
+							<div class="swiper-slide mk-swiper-slide">372</div>
+							<div class="swiper-slide mk-swiper-slide">373</div>
+							<div class="swiper-slide mk-swiper-slide">374</div>
+							<div class="swiper-slide mk-swiper-slide">375</div>
+							<div class="swiper-slide mk-swiper-slide">376</div>
+							<div class="swiper-slide mk-swiper-slide">377</div>
+							<div class="swiper-slide mk-swiper-slide">378</div>
+							<div class="swiper-slide mk-swiper-slide">379</div>
+							<div class="swiper-slide mk-swiper-slide">380</div>
+							<div class="swiper-slide mk-swiper-slide">381</div>
+							<div class="swiper-slide mk-swiper-slide">382</div>
+							<div class="swiper-slide mk-swiper-slide">383</div>
+							<div class="swiper-slide mk-swiper-slide">384</div>
+							<div class="swiper-slide mk-swiper-slide">385</div>
+							<div class="swiper-slide mk-swiper-slide">386</div>
+							<div class="swiper-slide mk-swiper-slide">387</div>
+							<div class="swiper-slide mk-swiper-slide">388</div>
+							<div class="swiper-slide mk-swiper-slide">389</div>
+							<div class="swiper-slide mk-swiper-slide">390</div>
+							<div class="swiper-slide mk-swiper-slide">391</div>
+							<div class="swiper-slide mk-swiper-slide">392</div>
+							<div class="swiper-slide mk-swiper-slide">393</div>
+							<div class="swiper-slide mk-swiper-slide">394</div>
+							<div class="swiper-slide mk-swiper-slide">395</div>
+							<div class="swiper-slide mk-swiper-slide">396</div>
+							<div class="swiper-slide mk-swiper-slide">397</div>
+							<div class="swiper-slide mk-swiper-slide">398</div>
+							<div class="swiper-slide mk-swiper-slide">399</div>
+							<div class="swiper-slide mk-swiper-slide">400</div>
+						</div>
+					</div>
+					<div class="content-block-title">Reputation</div>
+					<div class="swiper-container reputation-swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide fame-swiper-slide fame-background-x">X</div>
+							<div class="swiper-slide fame-swiper-slide fame-background-neg-5">-5</div>
+							<div class="swiper-slide fame-swiper-slide fame-background-neg-3">-3</div>
+							<div class="swiper-slide fame-swiper-slide fame-background-neg-2">-2</div>
+							<div class="swiper-slide fame-swiper-slide fame-background-neg-1-2">-1</div>
+							<div class="swiper-slide fame-swiper-slide fame-background-neg-1-1">-1</div>
+							<div class="swiper-slide fame-swiper-slide fame-background-0">0</div>
+							<div class="swiper-slide fame-swiper-slide fame-background-0">0</div>
+							<div class="swiper-slide fame-swiper-slide fame-background-0">0</div>
+							<div class="swiper-slide fame-swiper-slide fame-background-plus-1">+1</div>
+							<div class="swiper-slide fame-swiper-slide fame-background-plus-1">+1</div>
+							<div class="swiper-slide fame-swiper-slide fame-background-plus-2">+2</div>
+							<div class="swiper-slide fame-swiper-slide fame-background-plus-2">+2</div>
+							<div class="swiper-slide fame-swiper-slide fame-background-plus-3">+3</div>
+							<div class="swiper-slide fame-swiper-slide fame-background-plus-5">+5</div>
+						</div>
+					</div>
+				</div>
+			</div>
+             <!-- Link to another page -->
+              <a href="about.html">&nbsp&nbsp About Mage Knight Tracker</a>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>              
